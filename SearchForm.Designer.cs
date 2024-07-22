@@ -2,7 +2,7 @@
 
 namespace WinFormsApp1
 {
-    partial class Form1
+    partial class SearchForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -120,7 +120,7 @@ namespace WinFormsApp1
             pictureBox1.TabIndex = 4;
             pictureBox1.TabStop = false;
             // 
-            // Form1
+            // SearchForm
             // 
             AcceptButton = pbButton;
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -132,10 +132,10 @@ namespace WinFormsApp1
             Controls.Add(pbButton);
             Controls.Add(tbQueryString);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "Form1";
-            Text = "Form1";
-            Deactivate += Form1_Deactivate;
-            Leave += Form1_Leave;
+            Name = "SearchForm";
+            Text = "SearchForm";
+            Deactivate += SearchForm_Deactivate;
+            Leave += SearchForm_Leave;
             ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxClose).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxSettings).EndInit();

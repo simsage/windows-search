@@ -2,9 +2,9 @@ using System.Diagnostics;
 
 namespace WinFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class SearchForm : Form
     {
-        public Form1()
+        public SearchForm()
         {
             InitializeComponent();
 
@@ -56,7 +56,7 @@ namespace WinFormsApp1
         }
         #endregion
 
-        private void Form1_Leave(object sender, EventArgs e)
+        private void SearchForm_Leave(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
@@ -66,7 +66,7 @@ namespace WinFormsApp1
             if (MessageBox.Show("Are you sure you want to close SimSage Search?", "Are you sure?", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes) Close();
         }
 
-        private void Form1_Deactivate(object sender, EventArgs e)
+        private void SearchForm_Deactivate(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
