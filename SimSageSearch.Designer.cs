@@ -135,9 +135,9 @@ namespace SimSageSearch
             Controls.Add(tbQueryString);
             FormBorderStyle = FormBorderStyle.None;
             Name = "SimSageSearch";
-            Text = "Form1";
-            Deactivate += Form1_Deactivate;
-            Leave += Form1_Leave;
+            Text = "SearchForm";
+            Deactivate += SearchForm_Deactivate;
+            Leave += SearchForm_Leave;
             ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxClose).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxSettings).EndInit();

@@ -4,7 +4,7 @@
     <_LastSelectedProfileId>E:\SynologyDrive\Source\source\Curzon Monroe\TestApps\SS\WinFormsApp1\Properties\PublishProfiles\ClickOnceProfile.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Update="Form1.cs">
+    <Compile Update="SearchForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="SimSageSearch.cs">

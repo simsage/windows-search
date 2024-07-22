@@ -61,12 +61,12 @@ namespace SimSageSearch
         }
         #endregion
 
-        private void Form1_Leave(object sender, EventArgs e)
+        private void SearchForm_Leave(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void Form1_Deactivate(object sender, EventArgs e)
+        private void SearchForm_Deactivate(object sender, EventArgs e)
         {
             // If the messagebox is active just leave
             if (blSubWindowActive) return;
